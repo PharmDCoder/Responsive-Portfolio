@@ -145,3 +145,36 @@ td {
     margin:auto;
     width:960px;
 }
+
+@media only screen and (max-width: 980px) {
+    body {
+        max-width: 980px;
+    }
+
+    header {
+        width: 100%;
+    }
+    
+    section {
+        max-width: 780px;
+    }
+
+    input {
+        padding: 10px 500px 10px 0px;
+        margin: 0px;
+    }
+
+    h1 {
+        margin-left: 50px;
+    }
+
+    .largeBox {
+        padding: 10px 250px;
+        margin-left: 35px;
+    }
+    
+    button {
+        justify-content: left;
+    }
+
+}
